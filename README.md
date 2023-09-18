@@ -1,4 +1,7 @@
 # Water Usage Calculator for Crops
+
+Implemented using information provided by Crop Evapotranspiration: Guidelines for Computing Crop Water Requirements (1998) by Rick G. Allen and Food and Agriculture Organization of the United Nations.
+
 ## Description
 The Penman–Monteith equation approximates net evapotranspiration (ET) from meteorological data. The equation is widely used, and was derived by the United Nations Food and Agriculture Organization for modeling potential evapotranspiration [ETo](https://www.fao.org/3/x0490e/x0490e08.htm). Utilizing this with a calculation of a numeric value corresponding to a [crop coefficient](https://farmwest.com/climate/calculator-information/et/crop-coefficients/#:~:text=The%20crop%20coefficients,%20Kc%20values,evaporation%20from%20the%20soil%20surface.) which allows us to calculate ETc, the water usage or net evapotranspiration of a crop. 
 
